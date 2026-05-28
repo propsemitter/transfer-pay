@@ -26,11 +26,7 @@ export default defineNuxtConfig({
     }],
   },
 
-  modules: ['@nuxt/eslint', '@nuxt/ui', '@nuxt/image'],
-
-  image: {
-    // Default provider (ipx) is used for static generation
-  },
+  modules: ['@nuxt/eslint', '@nuxt/ui'],
 
   ui: {
     colorMode: false,
