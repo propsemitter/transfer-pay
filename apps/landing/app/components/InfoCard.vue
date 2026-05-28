@@ -43,7 +43,7 @@ defineProps<{
         "
         :class="gradient"
       />
-      <NuxtImg
+      <img
         :src="image" class="
           absolute -bottom-20 left-1/2 h-[70%] -translate-x-1/2
         "

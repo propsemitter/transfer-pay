@@ -39,15 +39,15 @@
           <template #details>
             <ul class="flex gap-sm">
               <li class="flex items-center gap-xs">
-                <NuxtImg src="/images/visa-circle-img.png" class="size-8" />
+                <img src="/images/visa-circle-img.png" class="size-8" />
                 <span class="text-body-m">VISA</span>
               </li>
               <li class="flex items-center gap-xs">
-                <NuxtImg src="/images/elcart-circle-img.png" class="size-8" />
+                <img src="/images/elcart-circle-img.png" class="size-8" />
                 <span class="text-body-m">Элкарт</span>
               </li>
               <li class="flex items-center gap-xs">
-                <NuxtImg src="/images/master-card-circle-img.png" class="size-8" />
+                <img src="/images/master-card-circle-img.png" class="size-8" />
                 <span class="text-body-m">MasterCard</span>
               </li>
             </ul>
