@@ -1,6 +1,6 @@
 {
-  "buildCommand": "pnpm --filter landing build",
-  "outputDirectory": "apps/landing/.vercel/output",
+  "buildCommand": "pnpm --filter landing generate",
+  "outputDirectory": "apps/landing/dist",
   "installCommand": "pnpm install",
   "framework": "nuxtjs"
 }
