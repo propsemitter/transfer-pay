@@ -4,10 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineNuxtConfig({
   ssr: false,
 
-  image: {
-    provider: 'vercel',
-  },
-
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
 
@@ -31,6 +27,10 @@ export default defineNuxtConfig({
   },
 
   modules: ['@nuxt/eslint', '@nuxt/ui', '@nuxt/image'],
+
+  image: {
+    // Default provider (ipx) is used for static generation
+  },
 
   ui: {
     colorMode: false,
