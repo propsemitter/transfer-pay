@@ -1,6 +1,6 @@
 {
   "buildCommand": "pnpm --filter landing generate",
-  "outputDirectory": "apps/landing/dist",
+  "outputDirectory": "apps/landing/.output/public",
   "installCommand": "pnpm install",
   "framework": "nuxtjs"
 }
