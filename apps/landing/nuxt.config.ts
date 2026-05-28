@@ -4,8 +4,8 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineNuxtConfig({
   ssr: false,
 
-  nitro: {
-    preset: 'vercel-static',
+  image: {
+    provider: 'vercel',
   },
 
   compatibilityDate: '2025-07-15',
