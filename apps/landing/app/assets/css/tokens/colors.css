@@ -1,0 +1,101 @@
+:root {
+  /* Surface */
+  --c-surface-primary: var(--color-zinc-50);
+  --c-surface-secondary: var(--color-base-white);
+  --c-surface-tertiary: var(--color-zinc-100);
+
+  /* Text */
+  --c-text-primary: var(--color-zinc-900);
+  --c-text-secondary: var(--color-zinc-600);
+
+  /* Button Primary */
+  --c-btn-primary-bg-default: var(--color-zinc-800);
+  --c-btn-primary-bg-hover: var(--color-zinc-800);
+  --c-btn-primary-bg-pressed: var(--color-zinc-950);
+  --c-btn-primary-bg-disabled: var(--color-zinc-400);
+  --c-btn-primary-text-default: var(--color-base-white);
+  --c-btn-primary-text-disabled: var(--color-zinc-400);
+
+  /* Button Secondary */
+  --c-btn-secondary-bg-default: var(--color-zinc-100);
+  --c-btn-secondary-bg-hover: var(--color-zinc-50);
+  --c-btn-secondary-bg-pressed: var(--color-zinc-200);
+  --c-btn-secondary-bg-disabled: var(--color-zinc-100);
+  --c-btn-secondary-text-default: var(--color-zinc-900);
+  --c-btn-secondary-text-disabled: var(--color-zinc-400);
+
+  /* Input */
+  --c-input-bg-default: var(--color-zinc-100);
+  --c-input-bg-hover: var(--color-zinc-50);
+  --c-input-bg-active: var(--color-zinc-200);
+  --c-input-border-default: var(--color-zinc-900);
+  --c-input-border-error: var(--color-red-500);
+  --c-input-text-label: var(--color-zinc-900);
+  --c-input-text-placeholder: var(--color-zinc-400);
+  --c-input-text-filled: var(--color-zinc-900);
+  --c-input-text-helper: var(--color-zinc-800);
+  --c-input-text-error: var(--color-red-500);
+  --c-input-icon-default: var(--color-zinc-400);
+  --c-input-icon-active: var(--color-zinc-900);
+  --c-input-icon-error: var(--color-red-500);
+  --c-input-icon-success: var(--color-emerald-600);
+
+  /* Status */
+  --c-status-success-bg: var(--color-emerald-50);
+  --c-status-success-fg: var(--color-emerald-600);
+  --c-status-error-bg: var(--color-red-100);
+  --c-status-error-fg: var(--color-red-700);
+  --c-status-warning-bg: var(--color-amber-100);
+  --c-status-warning-fg: var(--color-amber-700);
+}
+
+.dark {
+  /* Surface */
+  --c-surface-primary: var(--color-zinc-900);
+  --c-surface-secondary: var(--color-zinc-800);
+  --c-surface-tertiary: var(--color-zinc-700);
+
+  /* Text */
+  --c-text-primary: var(--color-zinc-50);
+  --c-text-secondary: var(--color-zinc-400);
+
+  /* Button Primary */
+  --c-btn-primary-bg-default: var(--color-base-white);
+  --c-btn-primary-bg-hover: var(--color-zinc-100);
+  --c-btn-primary-bg-pressed: var(--color-zinc-200);
+  --c-btn-primary-bg-disabled: var(--color-zinc-700);
+  --c-btn-primary-text-default: var(--color-zinc-950);
+  --c-btn-primary-text-disabled: var(--color-zinc-500);
+
+  /* Button Secondary */
+  --c-btn-secondary-bg-default: var(--color-zinc-700);
+  --c-btn-secondary-bg-hover: var(--color-zinc-600);
+  --c-btn-secondary-bg-pressed: var(--color-zinc-800);
+  --c-btn-secondary-bg-disabled: var(--color-zinc-700);
+  --c-btn-secondary-text-default: var(--color-zinc-50);
+  --c-btn-secondary-text-disabled: var(--color-zinc-500);
+
+  /* Input */
+  --c-input-bg-default: var(--color-zinc-700);
+  --c-input-bg-hover: var(--color-zinc-700);
+  --c-input-bg-active: var(--color-zinc-500);
+  --c-input-border-default: var(--color-zinc-50);
+  --c-input-border-error: var(--color-red-400);
+  --c-input-text-label: var(--color-zinc-50);
+  --c-input-text-placeholder: var(--color-zinc-400);
+  --c-input-text-filled: var(--color-base-white);
+  --c-input-text-helper: var(--color-zinc-400);
+  --c-input-text-error: var(--color-red-400);
+  --c-input-icon-default: var(--color-zinc-500);
+  --c-input-icon-active: var(--color-base-white);
+  --c-input-icon-error: var(--color-red-400);
+  --c-input-icon-success: var(--color-emerald-500);
+
+  /* Status */
+  --c-status-success-bg: var(--color-emerald-700);
+  --c-status-success-fg: var(--color-emerald-300);
+  --c-status-error-bg: var(--color-red-900);
+  --c-status-error-fg: var(--color-red-400);
+  --c-status-warning-bg: var(--color-amber-900);
+  --c-status-warning-fg: var(--color-amber-400);
+}

@@ -1,0 +1,150 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+/* --- Tokens --- */
+@import "./tokens/base.css";
+@import "./tokens/colors.css";
+@import "./tokens/spacings.css";
+@import "./tokens/typography.css";
+
+:root {
+  --ui-primary: var(--color-zinc-800);
+  --ui-bg: var(--color-zinc-50);
+
+  scroll-behavior: smooth;
+}
+
+@theme {
+  /* --- Base Tokens Mapping --- */
+
+  /* Base Colors (Synchronizing Tailwind palette with Figma) */
+  --color-zinc-50: var(--color-zinc-50);
+  --color-zinc-100: var(--color-zinc-100);
+  --color-zinc-200: var(--color-zinc-200);
+  --color-zinc-300: var(--color-zinc-300);
+  --color-zinc-400: var(--color-zinc-400);
+  --color-zinc-500: var(--color-zinc-500);
+  --color-zinc-600: var(--color-zinc-600);
+  --color-zinc-700: var(--color-zinc-700);
+  --color-zinc-800: var(--color-zinc-800);
+  --color-zinc-900: var(--color-zinc-900);
+  --color-zinc-950: var(--color-zinc-950);
+
+  --color-emerald-50: var(--color-emerald-50);
+  --color-emerald-100: var(--color-emerald-100);
+  --color-emerald-200: var(--color-emerald-200);
+  --color-emerald-300: var(--color-emerald-300);
+  --color-emerald-500: var(--color-emerald-500);
+  --color-emerald-600: var(--color-emerald-600);
+  --color-emerald-700: var(--color-emerald-700);
+  --color-emerald-900: var(--color-emerald-900);
+
+  --color-red-100: var(--color-red-100);
+  --color-red-200: var(--color-red-200);
+  --color-red-300: var(--color-red-300);
+  --color-red-400: var(--color-red-400);
+  --color-red-500: var(--color-red-500);
+  --color-red-700: var(--color-red-700);
+  --color-red-900: var(--color-red-900);
+
+  --color-amber-100: var(--color-amber-100);
+  --color-amber-300: var(--color-amber-300);
+  --color-amber-400: var(--color-amber-400);
+  --color-amber-500: var(--color-amber-500);
+  --color-amber-600: var(--color-amber-600);
+  --color-amber-700: var(--color-amber-700);
+  --color-amber-900: var(--color-amber-900);
+
+  --color-black: var(--color-base-black);
+  --color-white: var(--color-base-white);
+
+  /* Radiuses */
+  --radius-radius-s: var(--radius-radius-s);
+  --radius-radius-m: var(--radius-radius-m);
+  --radius-radius-xl: var(--radius-radius-xl);
+
+  /* Fonts */
+  --font-brand: var(--font-brand);
+  --font-weight-regular: var(--font-weight-regular);
+  --font-weight-medium: var(--font-weight-medium);
+  --font-weight-semibold: var(--font-weight-semibold);
+  --font-weight-bold: var(--font-weight-bold);
+
+  /* --- Semantic Tokens Mapping --- */
+
+  /* Colors */
+  --color-surface-primary: var(--c-surface-primary);
+  --color-surface-secondary: var(--c-surface-secondary);
+  --color-surface-tertiary: var(--c-surface-tertiary);
+
+  --color-text-primary: var(--c-text-primary);
+  --color-text-secondary: var(--c-text-secondary);
+
+  --color-btn-primary-bg-default: var(--c-btn-primary-bg-default);
+  --color-btn-primary-bg-hover: var(--c-btn-primary-bg-hover);
+  --color-btn-primary-bg-pressed: var(--c-btn-primary-bg-pressed);
+  --color-btn-primary-bg-disabled: var(--c-btn-primary-bg-disabled);
+  --color-btn-primary-text-default: var(--c-btn-primary-text-default);
+  --color-btn-primary-text-disabled: var(--c-btn-primary-text-disabled);
+
+  --color-btn-secondary-bg-default: var(--c-btn-secondary-bg-default);
+  --color-btn-secondary-bg-hover: var(--c-btn-secondary-bg-hover);
+  --color-btn-secondary-bg-pressed: var(--c-btn-secondary-bg-pressed);
+  --color-btn-secondary-bg-disabled: var(--c-btn-secondary-bg-disabled);
+  --color-btn-secondary-text-default: var(--c-btn-secondary-text-default);
+  --color-btn-secondary-text-disabled: var(--c-btn-secondary-text-disabled);
+
+  --color-input-field-bg-default: var(--c-input-bg-default);
+  --color-input-field-bg-hover: var(--c-input-bg-hover);
+  --color-input-field-bg-active: var(--c-input-bg-active);
+  --color-input-field-border-default: var(--c-input-border-default);
+  --color-input-field-border-error: var(--c-input-border-error);
+  --color-input-text-label: var(--c-input-text-label);
+  --color-input-text-placeholder: var(--c-input-text-placeholder);
+  --color-input-text-filled: var(--c-input-text-filled);
+  --color-input-text-helper: var(--c-input-text-helper);
+  --color-input-text-error: var(--c-input-text-error);
+  --color-input-icon-default: var(--c-input-icon-default);
+  --color-input-icon-active: var(--c-input-icon-active);
+  --color-input-icon-error: var(--c-input-icon-error);
+  --color-input-icon-success: var(--c-input-icon-success);
+
+  --color-status-success-bg: var(--c-status-success-bg);
+  --color-status-success-fg: var(--c-status-success-fg);
+  --color-status-error-bg: var(--c-status-error-bg);
+  --color-status-error-fg: var(--c-status-error-fg);
+  --color-status-warning-bg: var(--c-status-warning-bg);
+  --color-status-warning-fg: var(--c-status-warning-fg);
+
+  /* Spacings */
+  --spacing-2xs: var(--s-2xs);
+  --spacing-xs: var(--s-xs);
+  --spacing-sm: var(--s-sm);
+  --spacing-md: var(--s-md);
+  --spacing-lg: var(--s-lg);
+  --spacing-xl: var(--s-xl);
+  --spacing-2xl: var(--s-2xl);
+  --spacing-3xl: var(--s-3xl);
+  --spacing-4xl: var(--s-4xl);
+  --spacing-5xl: var(--s-5xl);
+
+  /* Typography */
+  --text-h1: var(--f-h1-size);
+  --text-h1--line-height: var(--f-h1-lh);
+  --text-h1--font-weight: 600;
+  --text-h2: var(--f-h2-size);
+  --text-h2--line-height: var(--f-h2-lh);
+  --text-h3: var(--f-h3-size);
+  --text-h3--line-height: var(--f-h3-lh);
+  --text-h3--font-weight: 600;
+  --text-h4: var(--f-h4-size);
+  --text-h4--line-height: var(--f-h4-lh);
+  --text-body-l: var(--f-body-l-size);
+  --text-body-l--line-height: var(--f-body-l-lh);
+  --text-body-m: var(--f-body-m-size);
+  --text-body-m--line-height: var(--f-body-m-lh);
+  --text-body-s: var(--f-body-s-size);
+  --text-body-s--line-height: var(--f-body-s-lh);
+  --text-caption: var(--f-caption-size);
+  --text-caption--line-height: var(--f-caption-lh);
+}

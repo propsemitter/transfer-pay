@@ -1,0 +1,25 @@
+:root {
+  --s-2xs: var(--spacing-4);
+  --s-xs: var(--spacing-8);
+  --s-sm: var(--spacing-12);
+  --s-md: var(--spacing-16);
+  --s-lg: var(--spacing-24);
+  --s-xl: var(--spacing-24);
+  --s-2xl: var(--spacing-24);
+  --s-3xl: var(--spacing-48);
+  --s-4xl: var(--spacing-16);
+  --s-5xl: var(--spacing-48);
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --s-sm: var(--spacing-16);
+    --s-md: var(--spacing-24);
+    --s-lg: var(--spacing-32);
+    --s-xl: var(--spacing-40);
+    --s-2xl: var(--spacing-48);
+    --s-3xl: var(--spacing-64);
+    --s-4xl: var(--spacing-80);
+    --s-5xl: var(--spacing-120);
+  }
+}

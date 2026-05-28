@@ -1,0 +1,88 @@
+:root {
+  /* --- Base Colors --- */
+  
+  /* Zinc */
+  --color-zinc-50: #FAFAFA;
+  --color-zinc-100: #F4F4F5;
+  --color-zinc-200: #E4E4E7;
+  --color-zinc-300: #D4D4D8;
+  --color-zinc-400: #9F9FA9;
+  --color-zinc-500: #71717B;
+  --color-zinc-600: #52525C;
+  --color-zinc-700: #3F3F46;
+  --color-zinc-800: #27272A;
+  --color-zinc-900: #18181B;
+  --color-zinc-950: #09090B;
+
+  /* Emerald */
+  --color-emerald-50: #ECFDF5;
+  --color-emerald-100: #D0FAE5;
+  --color-emerald-200: #A4F4CF;
+  --color-emerald-300: #5EE9B5;
+  --color-emerald-500: #00BC7D;
+  --color-emerald-600: #009966;
+  --color-emerald-700: #007A55;
+  --color-emerald-900: #004F3B;
+
+  /* Red */
+  --color-red-100: #FFE2E2;
+  --color-red-200: #FFC9C9;
+  --color-red-300: #FFA2A2;
+  --color-red-400: #FF6467;
+  --color-red-500: #FB2C36;
+  --color-red-700: #C10007;
+  --color-red-900: #82181A;
+
+  /* Amber */
+  --color-amber-100: #FEF3C6;
+  --color-amber-300: #FFD230;
+  --color-amber-400: #FFB900;
+  --color-amber-500: #FE9A00;
+  --color-amber-600: #E17100;
+  --color-amber-700: #BB4D00;
+  --color-amber-900: #7B3306;
+
+  /* Base */
+  --color-base-white: #FFFFFF;
+  --color-base-black: #030712;
+  --color-base-transparent-white: rgba(255, 255, 255, 0.01);
+
+  /* --- Base Radiuses --- */
+  --radius-radius-s: 12px;
+  --radius-radius-m: 24px;
+  --radius-radius-xl: 9999px;
+
+  /* --- Base Spacing Scale --- */
+  --spacing-0: 0px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-64: 64px;
+  --spacing-80: 80px;
+  --spacing-120: 120px;
+  --spacing-160: 160px;
+  --spacing-9999: 9999px;
+
+  /* --- Base Font Properties --- */
+  --font-brand: "Inter", sans-serif;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Base Font Sizes */
+  --font-size-12: 12px;
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+  --font-size-20: 20px;
+  --font-size-24: 24px;
+  --font-size-32: 32px;
+  --font-size-40: 40px;
+  --font-size-48: 48px;
+  --font-size-64: 64px;
+}

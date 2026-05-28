@@ -1,0 +1,29 @@
+{
+  "name": "landing",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/eslint": "catalog:",
+    "@nuxt/image": "2.0.0",
+    "@nuxt/ui": "catalog:",
+    "@vueuse/core": "^14.3.0",
+    "eslint": "catalog:",
+    "nuxt": "catalog:",
+    "valibot": "^1.4.1",
+    "vue": "catalog:",
+    "vue-router": "catalog:"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "catalog:",
+    "@tailwindcss/vite": "catalog:",
+    "eslint-plugin-better-tailwindcss": "catalog:",
+    "tailwindcss": "catalog:"
+  }
+}
