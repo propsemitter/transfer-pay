@@ -3,14 +3,26 @@
 
 <template>
   <section id="licenses" class="relative overflow-hidden py-3xl">
-    <!-- Background Glow -->
     <div
-      class="pointer-events-none absolute -right-40 top-1/2 size-[600px] -translate-y-1/2 rounded-full bg-[#95FFFD]/20 blur-[250px]"
+      class="
+        pointer-events-none absolute top-1/2 -right-40 size-[600px]
+        -translate-y-1/2 rounded-full bg-[#95FFFD]/20 blur-[250px]
+      "
     />
 
-    <UContainer class="relative z-10 flex flex-col items-center">
-      <div class="mb-2xl flex w-full flex-col items-start gap-12 lg:flex-row lg:items-center">
-        <div class="flex flex-col items-start gap-6 lg:w-1/2">
+    <UContainer class="relative z-10 flex flex-col items-start">
+      <div
+        class="
+          mb-2xl flex w-full flex-col items-start gap-12
+          lg:flex-col
+        "
+      >
+        <div
+          class="
+            flex flex-col items-start gap-6
+            lg:w-1/2
+          "
+        >
           <InfoChip icon="i-custom:arrows-right-left">
             ЛИЦЕНЗИИ
           </InfoChip>
@@ -23,7 +35,12 @@
             </p>
           </div>
         </div>
-        <div class="grid w-full grid-cols-1 gap-4 lg:w-1/2">
+        <div
+          class="
+            grid w-full grid-cols-1 gap-4
+            lg:w-full lg:grid-cols-2
+          "
+        >
           <LicenseCard
             image="/images/license-1.png"
             title="Лицензия НБКР на осуществление деятельности в качестве платежной организации"
