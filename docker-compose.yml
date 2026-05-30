@@ -1,0 +1,12 @@
+services:
+  landing:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: transfer-pay-landing
+    ports:
+      - "80:3000"
+    restart: always
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
