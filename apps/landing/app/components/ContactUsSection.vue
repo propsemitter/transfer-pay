@@ -41,7 +41,7 @@
             lg:-right-300 lg:left-auto lg:size-[1184px]
           "
         />
-        <NuxtImg
+        <img
           src="/images/method-1.png" class="
             absolute -bottom-20 left-1/2 h-85 w-78.5 -translate-x-1/2
             lg:-right-90 lg:left-auto lg:h-[700px] lg:w-[624px]

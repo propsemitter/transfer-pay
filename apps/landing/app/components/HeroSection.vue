@@ -66,7 +66,7 @@
             xl:translate-x-1/2
           "
         />
-        <NuxtImg
+        <img
           src="/images/hero-img.png" class="
             absolute -bottom-20 left-1/2 h-85 w-78.5 -translate-x-1/2
             xl:-right-115 xl:left-auto xl:h-170.25 xl:w-157.25

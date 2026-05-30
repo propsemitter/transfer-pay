@@ -22,7 +22,7 @@ defineProps<{
         lg:h-full
       "
     >
-      <NuxtImg
+      <img
         :src="image" class="
           h-full max-w-36
           lg:h-auto
