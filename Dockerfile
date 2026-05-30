@@ -8,12 +8,15 @@ RUN corepack enable
 
 WORKDIR /app
 
+# Настройка лимитов памяти для Node.js (актуально для серверов с 2GB RAM)
+ENV NODE_OPTIONS="--max-old-space-size=1536"
+
 # Копируем конфигурационные файлы pnpm
 COPY package.json pnpm-workspace.yaml pnpm-lock.yaml ./
 COPY apps/landing/package.json ./apps/landing/
 
-# Установка зависимостей
-RUN pnpm install --frozen-lockfile
+# Установка зависимостей с последующей очисткой кеша
+RUN pnpm install --frozen-lockfile && pnpm store prune
 
 # Копируем исходный код
 COPY . .
